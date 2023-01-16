@@ -9,6 +9,9 @@ nav{
 nav img{
 	display: none;
 }
+.hero-text-container-mobile{
+	display:none;
+}
 
 section{
 	color: white;
@@ -27,6 +30,29 @@ li{
     margin-right: 25px;
 }
 
+header{
+	background-color: #E9C46A;
+}
+
+header img{
+	height: 500px;
+	border-radius: 40%;
+	margin: 3%;
+}
+
+.hero-text-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.hero-text-container div{
+	width: 75%;
+}
+
+
+
 @media screen and (max-width: 1000px){
 	ul{
 		display: none;
@@ -35,6 +61,16 @@ li{
 		display: block;
 		margin-top: 26px;
         height: 30px;
+	}
+	.hero-text-container{
+		display:none;
+	}
+	.hero-text-container-mobile{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: 20%;
 	}
 }
 		  
