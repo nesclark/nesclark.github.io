@@ -4,6 +4,9 @@
 
 nav{
 	background-color: #2A9D8F;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 nav img{
@@ -32,6 +35,7 @@ li{
 
 header{
 	background-color: #E9C46A;
+	margin-top: 80px;
 }
 
 header img{
@@ -51,7 +55,28 @@ header img{
 	width: 75%;
 }
 
+main{
+	background-image: url("forest.jpg");
+	width: 100%;
+}
 
+main section div{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+footer{
+	background-color: #E76F51;
+}
+
+#contact section{
+	margin-left: 20%;
+	width: 60%;
+	align-items: center;
+	flex-wrap: wrap;
+}
 
 @media screen and (max-width: 1000px){
 	ul{
