@@ -78,7 +78,7 @@ footer{
 	flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 768px){
 	ul{
 		display: none;
 	}
@@ -95,7 +95,7 @@ footer{
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-		margin: 20%;
+		margin: 5% 20% 10% 20%;
 	}
 }
 		  
