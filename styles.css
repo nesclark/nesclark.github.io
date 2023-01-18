@@ -80,10 +80,6 @@ header img{
 }
 
 main{
-/*	background-image: url("forest.jpg");*/
-/*	background-attachment: fixed;*/
-/*	background-repeat: no-repeat;*/
-/*	background-size: cover;*/
 	width: 100%;
 	filter: brightness(0.75) saturate(1.2) contrast(0.85);
 }
