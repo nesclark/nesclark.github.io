@@ -126,10 +126,14 @@ footer{
 	ul{
 		display: none;
 	}
-  	nav img {
+  	nav img{
 		display: block;
 		margin-top: 26px;
         height: 30px;
+	}
+	header img{
+		height: 100%;
+		width: 100%;
 	}
 	.hero-text-container{
 		display:none;
