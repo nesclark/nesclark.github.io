@@ -18,7 +18,7 @@ nav img{
 
 section{
 	color: white;
-	font-family: courier;
+	font-family: 'Courier New', monospace;
 	display: flex;
 	justify-content: space-around;
 }
@@ -83,15 +83,22 @@ main section div{
 }
 
 .project-container:hover{
-	filter: brightness(0) saturate(0) contrast(0);
+	filter: brightness(1.5) saturate(1) contrast(1.2);
 }
 
 .project-description{
 	background-color: #264653;
 	width: 350px;
-	height: 350px;
+	height: 250px;
 	padding: 0px 10px 0px 10px;
 	box-shadow: 0px 0px 10px 5px #888888;
+}
+
+.project-description img{
+	height: 20%;
+}
+.project-description img:hover{
+	height:25%;
 }
 
 footer{
@@ -123,6 +130,9 @@ footer{
 		align-items: center;
 		text-align: center;
 		margin: 5% 20% 10% 20%;
+	}
+	.project-container{
+		filter: brightness(1.5) saturate(1) contrast(1.2);
 	}
 }
 		  
