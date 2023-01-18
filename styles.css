@@ -2,11 +2,19 @@
 	box-sizing: border-box;
 }
 
+body{
+	background-image: url("forest.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 nav{
-	background-color: #2A9D8F;
+	background-color: rgba(0, 146, 132, .95);
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 10;
 }
 
 nav img{
@@ -47,7 +55,7 @@ a:hover{
 }
 
 header{
-	background-color: #E9C46A;
+	background-color: rgba(232, 188, 101, 0.8);
 	margin-top: 80px;
 }
 
@@ -66,10 +74,12 @@ header img{
 
 .hero-text-container div{
 	width: 75%;
+	background-color: rgba(234, 100, 75, .8);
+	padding: 10px 10px 10px 10px;
+	border-style: solid;
 }
 
 main{
-	background-image: url("forest.jpg");
 	width: 100%;
 	filter: brightness(0.75) saturate(1.2) contrast(0.85);
 }
@@ -116,10 +126,14 @@ footer{
 	ul{
 		display: none;
 	}
-  	nav img {
+  	nav img{
 		display: block;
 		margin-top: 26px;
         height: 30px;
+	}
+	header img{
+		height: 100%;
+		width: 100%;
 	}
 	.hero-text-container{
 		display:none;
@@ -130,6 +144,11 @@ footer{
 		align-items: center;
 		text-align: center;
 		margin: 5% 20% 10% 20%;
+	}
+	.hero-text-container-mobile div{
+		background-color: rgba(234, 100, 75, .8);
+		padding: 10px 10px 10px 10px;
+		border-style: solid;
 	}
 	.project-container{
 		filter: brightness(1.5) saturate(1) contrast(1.2);
