@@ -20,6 +20,7 @@ nav{
 nav img{
 	display: none;
 }
+
 .hero-text-container-mobile{
 	display:none;
 }
@@ -112,7 +113,18 @@ main section div{
 }
 
 footer{
-	background-color: #E76F51;
+	background-color: rgba(234, 100, 75, .8);
+	text-align: center;
+}
+
+.contact-info{
+	font-size: 18px;
+}
+.contact-info img{
+	width: 10%;
+}
+.contact-info img:hover{
+	width: 12%;
 }
 
 #contact section{
