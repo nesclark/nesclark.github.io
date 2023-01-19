@@ -116,6 +116,10 @@ footer{
 	background-color: rgba(234, 100, 75, .8);
 	text-align: center;
 }
+
+.contact-info{
+	font-size: 18px;
+}
 .contact-info img{
 	width: 10%;
 }
