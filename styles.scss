@@ -1,0 +1,199 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("forest.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav {
+	background-color: rgba(0, 146, 132, .95);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	a {
+		text-decoration: none;
+		h1 {
+			color: #FFFFFF;
+			&:hover {
+				color: #E9C46A;
+			}
+		}
+	}
+	img {
+		display: none;
+	}
+}
+
+
+section {
+	color: #FFFFFF;
+	font-family: 'Courier New', monospace;
+	display: flex;
+	justify-content: space-around;
+}
+
+ul {
+	display: flex;
+	align-items: center;
+	li {
+		list-style-type: none;
+		margin-right: 25px;
+		a {
+			text-decoration: none;
+			&:link {
+				color: #FFFFFF;
+			}
+			&:visited {
+				color: #FFFFFF;
+			}
+			&:hover {
+				color: #E9C46A;
+			}
+		}
+	}
+}
+
+header {
+	background-color: rgba(232, 188, 101, 0.8);
+	margin-top: 80px;
+	img {
+		height: 500px;
+		border-radius: 35%;
+		margin: 3%;
+	}
+	.hero-text-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		div {
+			width: 75%;
+			background-color: rgba(234, 100, 75, .8);
+			padding: 10px 10px 10px 10px;
+			border-style: solid;
+		}
+	}
+}
+
+main {
+	width: 100%;
+	filter: brightness(0.95) saturate(1.05) contrast(0.95);
+	section {
+		div {
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			padding-top: 40px;
+			margin-bottom: 40px;
+			.project-container {
+				width: 30%;
+				height: auto;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				padding: 10px;
+				.project-description {
+					background-color: #264653;
+					padding: 0 10px 10px 10px;
+					box-shadow: 0 0 10px 5px #888888;
+				}
+				.project-image {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+				}
+				img {
+					height: 40px;
+					&:hover {
+						height: 44px;
+						cursor: pointer;
+					}
+				}
+				&:hover {
+					filter: brightness(1.1);
+				}
+			}
+		}
+	}
+}
+
+footer {
+	background-color: rgba(234, 100, 75, .8);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	.contact-info {
+		font-size: 18px;
+		a {
+			img {
+				width: 70px;
+				&:hover {
+					width: 72px;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	section {
+		width: 60%;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	ul {
+		display: none;
+	}
+
+	main{
+		section{
+			div{
+				.project-container {
+					width: 50%;
+				}
+			}
+		}
+	}
+
+  	nav img {
+		display: block;
+		margin-top: 26px;
+        height: 30px;
+	}
+
+	#aboutme section {
+		display: block;
+		padding-right: 5.5%;
+	}
+
+	.hero-text-container {
+		padding-left: 5%;
+		padding-bottom: 5%;
+	}
+
+	header img {
+		height: 100%;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	main {
+		section {
+			div {
+				.project-container {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+	
+		  
