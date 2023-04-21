@@ -96,7 +96,7 @@ main section div .project-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 10px;
+  padding: 30px;
 }
 main section div .project-container .project-description {
   background-color: #264653;
