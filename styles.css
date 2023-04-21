@@ -108,10 +108,10 @@ main section div .project-container .project-image {
   height: 100%;
   object-fit: cover;
 }
-main section div .project-container img {
+main section div .project-container .github-icon {
   height: 40px;
 }
-main section div .project-container img:hover {
+main section div .project-container .github-icon:hover {
   height: 44px;
   cursor: pointer;
 }
@@ -148,11 +148,6 @@ footer section {
   }
   main section div .project-container {
     width: 50%;
-  }
-  nav img {
-    display: block;
-    margin-top: 26px;
-    height: 30px;
   }
   #aboutme section {
     display: block;
